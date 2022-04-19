@@ -10,8 +10,8 @@ const Todo = (props) => {
   return (
     <div>
         <List className='todo-list'>
-            <ListItem>
-                <ListItemText primary={props.todo.todo} secondary={props.text} />
+            <ListItem >
+                <ListItemText  primary={props.todo.todo} secondary={props.text} />
             </ListItem>
             <DeleteRounded onClick={event => deleteDoc(doc(db, 'todos', props.todo.id))} />
             {/* <Button onClick={event => deleteDoc(doc(db, 'todos', props.todo.id))}>Delete Me</Button> */}
