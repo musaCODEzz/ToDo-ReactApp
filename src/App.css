@@ -39,18 +39,24 @@
 
 h1 {
   
-  color: red;
+  color: rgb(31, 184, 235);
 }
 
 ul{
-   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   flex-direction: column;
+   
+   
   
-  top: 10px;
+  /* top: 10px;
   align-self: center;
   align-items: center;
   margin: auto;
   width: 60%;
- 
+  */
 
 
 }
