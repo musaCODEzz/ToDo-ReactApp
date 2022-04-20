@@ -43,7 +43,14 @@ h1 {
 }
 
 ul{
-  position: relative;
-  margin-left: 300px;
+   position: relative;
+  
   top: 10px;
+  align-self: center;
+  align-items: center;
+  margin: auto;
+  width: 60%;
+ 
+
+
 }
